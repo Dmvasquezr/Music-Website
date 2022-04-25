@@ -19,7 +19,7 @@
                 <li><a href="#">HOME</a></li>
                 <li><a href="#">ABOUT</a></li>
                 <li><a href="#">PRODUCTS</a></li>
-                <li><a href="#">CONNECT</a></li>
+                <li><a href="./connect.html" target="_blank">CONNECT</a></li>
 
             </ul>
         </div>
@@ -31,17 +31,17 @@
 
                     <div class="cards">
                         <p>Ambience Sounds</p>
-                        <img src="./Assets/play.png" id="icon" alt="">
+                        <img src="./Assets/play.png" id="Ambience" alt="" onclick="handlePlay(event, 'ambiente')">
                     </div>
     
                     <div class="cards">
-                        <p>vvv</p>
-                        <img src="./Assets/play.png" id="icon" alt="">
+                        <p>Raining outside</p>
+                        <img src="./Assets/play.png" id="Raining" alt="" onclick="handlePlay(event, 'raining')">
                     </div>
     
                     <div class="cards">
-                        <p>bbbb</p>
-                        <img src="./Assets/play.png" id="icon" alt="">
+                        <p>Love sight</p>
+                        <img src="./Assets/play.png" id="Love" alt="" onclick="handlePlay(event, 'love')">
                     </div>
 
                     <span>Click <a href="https://freesound.org/" target="_blank">here</a> for more</span>
@@ -52,8 +52,16 @@
         </div>
     </div>
 
-    <audio id="mySong">
+    <audio id="Ambience">
         <source src="./Assets/353032__inspectorj__ambience-peaceful-synth.wav" type="audio/mp3">
+    </audio>
+
+    <audio id="Raining">
+        <source src="./Assets/401277__inspectorj__rain-moderate-a.wav" type="audio/mp3">
+    </audio>
+
+    <audio id="Love">
+        <source src="./Assets/510954__theoter__romantic-song.mp3" type="audio/mp3">
     </audio>
 
     <script src="./script.js"></script>

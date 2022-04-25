@@ -6,7 +6,7 @@
 .container {
     height: 100vh;
     width: 100wh;
-    background-image: url(../Assets/image.png);
+    background-image: url(../Assets/71.jpg);
     background-size: cover;
     background-position: center;
     position: relative;
@@ -23,8 +23,8 @@
     justify-content: flex-end;
 }
 .logo {
-    width: 140px;
-    margin: 40px;
+    width: 240px;
+    margin: 50px;
     cursor: pointer;
 }
 .navbar ul li {
@@ -35,7 +35,7 @@
 }
 .navbar ul li a {
     text-decoration: none;
-    color: #4c4b4b;
+    color: #181717d6;
     font-size: 20px;
     font-weight: bold;
     transition: 0.5s;
@@ -53,9 +53,10 @@
 }
 .left-col h1 {
     font-size: 90px;
-    color: #fff;
+    color: #ffffffce;
     line-height: 110px;
     float: left;
+    margin-top: 50px;
 }
 .right-col {
     width: 30%;
@@ -68,16 +69,16 @@
 
 .right-col p {
     font-size: 18px;
-    color: #5f5f5f;
+    color: #201f1f;
     font-weight: 400;
     margin-right: 15px;  
     text-align: center;  
 }
 .right-col span {
     font-size: 15px;
-    color: #5f5f5f;
+    color: #000000;
     font-weight: 400;
-    margin-right: 10px;
+    margin-top: 10px;
 }
 .cards {
     display: flex;
@@ -86,13 +87,16 @@
     align-items: center;
     width: 150px;
     height: 50%;
-    background-color: #c1c4f439;
+    background-color: #f4c5c184;
     border-radius: 10px;
     box-shadow: 0px 0px 10px rgb(159, 156, 156);
     margin: 10px;
     padding: 20px;
 }
-#icon {
+.cards:hover {
+    background-color: #f4c5c1db;
+}
+.cards img {
     width: 80px;
     cursor: pointer;
 }
